@@ -1,0 +1,26 @@
+.error {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    height: Calc(100vh - 80px);
+    color: #eee;
+}
+
+
+.link {
+    margin-top: 40px;
+    text-align: center;
+    text-decoration: none;
+    padding: 15px 25px;
+    background-color:royalblue;
+    border-radius: 5px;
+    color: #fff;
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.link:hover {
+    opacity: .8;
+}
