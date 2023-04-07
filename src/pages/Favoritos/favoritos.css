@@ -17,7 +17,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: #191A21;
+    background-color: #12121A;
     padding: 20px;
     border-radius: 10px;
     color: #eee;
@@ -31,7 +31,7 @@
 .meus-filmes ul li .detalhes {
     text-decoration: none;
     color: #fff;
-    background-color: royalblue;
+    background-color: rgba(65, 105, 225, 0.6);
     padding: 10px 15px;
     border-radius: 5px;
     font-size: 14px;
@@ -45,7 +45,7 @@
 
 .meus-filmes ul li .excluir {
     font-size: 22px;
-    color: #e40000;
+    color: #c93434;
     background-color: transparent;
     outline: none;
     border: 0;
@@ -54,7 +54,7 @@
 }
 
 .meus-filmes ul li .excluir:hover {
-    color: #ff5151;
+    color: #ff7272;
 }
 
 .sem-filmes {

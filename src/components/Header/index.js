@@ -7,7 +7,8 @@ const Header = () => {
         <div className='container-header'>
             <header>
                 <Link className='logo' to={'/'}>
-                    <i className='ri-film-line'></i>PRIMEFLIX
+                    {/* <i className='ri-film-line'></i> */}
+                    Prime<div className='flix'>flix</div>
                 </Link>
                 <Link className='favoritos' to={'/favoritos'}>
                     <i className='ri-archive-line'></i>Meus filmes
