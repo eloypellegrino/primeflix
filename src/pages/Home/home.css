@@ -1,14 +1,19 @@
 .container-home {
-    margin: 100px auto;
+    margin: 60px auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 1280px;
 }
 
 .lista-filmes {
     display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr) ) ;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr) ) ;
     max-width: 100%;
     align-items: center;
     justify-content: center;
-    gap: 40px 20px;
+    gap: 20px 20px;
 }
 
 .lista-filmes article {
@@ -24,8 +29,8 @@
     font-weight: 400;
     display: inline-block;
     font-size: 14px;
-    color: rgb(205, 218, 255);
-    background-color: rgba(65, 105, 225, 0.2);
+    color: white;
+    background-color: #111;
     padding: 7px 14px;
     border-radius: 100px;
     margin-bottom: 15px;
@@ -59,4 +64,61 @@
     justify-content: center;
     align-items: center;
     height: Calc(100vh - 80px);
+}
+
+.backgroundImage {
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 75vh;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    margin-top: -80px;
+}
+
+.containerImage {
+    width: 1280px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    color: white;
+    font-size: 30px;
+    padding-bottom: 60px;
+}
+
+.title {
+    width: 60%;
+}
+
+.cta {
+    margin-top: 20px;
+    width: 260px;
+    padding: 20px;
+    font-size: 20px;
+    border-radius: 4px;
+    color: black;
+    background-color: white;
+    border: none;
+    cursor: pointer;
+    font-weight: bold;
+    transition: all .2s;
+    text-decoration: none;
+    text-align: center;
+
+    &:hover {
+        background-color: #111;
+        color: white;
+    }
+}
+
+.subTitle {
+    color: white;
+    display: flex;
+    text-align: left;
+    align-items: start;
+    justify-content: start;
+    width: 1280px;
+    margin-bottom: 20px;
+    font-size: 30px;
 }

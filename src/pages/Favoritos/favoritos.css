@@ -1,9 +1,11 @@
 .meus-filmes {
-    margin-top: 100px;
+    width: 1280px;
+    margin: 0 auto;
 }
 
 .meus-filmes h1 {
-    color: #eee;
+    margin-top: 60px;
+    color: white;
     margin-bottom: 20px;
 }
 
@@ -17,7 +19,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: #12121A;
+    background-color: #222;
     padding: 20px;
     border-radius: 10px;
     color: #eee;
@@ -31,7 +33,7 @@
 .meus-filmes ul li .detalhes {
     text-decoration: none;
     color: #fff;
-    background-color: rgba(65, 105, 225, 0.6);
+    background-color: #333;
     padding: 10px 15px;
     border-radius: 5px;
     font-size: 14px;
